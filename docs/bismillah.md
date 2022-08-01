@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Hello"
-permalink: docs\bismillah.md
+permalink: bismillah.md
 ---
 
 Yayie
