@@ -1,4 +1,6 @@
 - name: Home
-  link: docs\index.html
+  link: index.html
 - name: About
   link: bismillah.html
+- name: Blog
+  link: blog.html
