@@ -34,7 +34,8 @@ header{
 }
 
 header {  
-    background-color: teal;  
+    background-color: #0095BE; 
+    color: white; 
     position: fixed;  
     left: 0;  
     right: 0;  
@@ -56,12 +57,14 @@ header li {
 
 header li a {  
     color: rgb(255, 255, 255);  
-    text-decoration: none;  
+    text-decoration: none;
+    padding: 14px 16px;
 }  
 
 header li a:hover{
     background-color: #FFD572;
     color: #061e56;
+    padding: 14px 16px;
 }
 
 header li a.active{
