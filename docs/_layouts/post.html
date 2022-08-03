@@ -2,11 +2,21 @@
 layout: default
 ---
 
-<header>
-    
-</header>
-<h1>{{page.title}}</h1>
-<span class = "date">{{page.date | date_to_string}}  </span>
-<p>{{page.author}}</p>
+<head>
+    <link rel = "stylesheet"
+</head>
 
-{{content}}
+<header>
+    {{page.image | prepend: site.url }}
+    <h1>{{page.title}}</h1>
+    <span class = "date">{{page.date | date_to_string}}  </span>
+    <p>{{page.author}}</p>
+</header>
+
+<main>
+    <div class = "blog-content">
+    {{content}}
+</div>
+
+</main>
+
