@@ -29,29 +29,3 @@ header{
     color:red;
 }
 
-.navbar.navbar-dark {
-        background-color: #0095BE;
-        color: white;
-        font-family: 'Lato', sans-serif;
-        justify-content: end;
-        align-items: center;
-        width: 100%;
-}
-      
-.navbar.navbar-dark a{
-        float: left;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: wavy;
-        font-size: 18px;
-}
-      
-.navbar.navbar-dark a:hover{
-        background-color: #FFD572;
-        color: #2B6BFF;
-}
-
-.navbar.navbar-dark a.active{
-        background-color: #80F1C4;
-} 
