@@ -7,15 +7,18 @@ layout: default
 </head>
 
 <header>
-    <div class = "featured-image">
-        <img src= "{{site.github.url}}//assets//images//{{page.image}}"/>
-    </div>
-    <h1 class = "title">{{page.title}}</h1>
-    <span class = "date">{{page.date | date_to_string}}  </span>
+    
 </header>
 
 <main>
-   <div class = "blog-content">
+    <div class = "featured-image">
+        <img src= "{{site.github.url}}//assets//images//{{page.image}}"/>
+    </div>
+    
+    <h1 class = "title">{{page.title}}</h1>
+    <span class = "date">{{page.date | date_to_string}}  </span>
+   
+    <div class = "blog-content">
     {{content}}
     </div>
 </main>

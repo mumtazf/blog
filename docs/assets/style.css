@@ -38,11 +38,12 @@ header {
     position: fixed;  
     left: 0;  
     right: 0;  
-    top: 5px;  
-    height: 30px;  
+    top: 0px;  
+    height: 50px;  
     display: flex;  
     align-items: center;  
     box-shadow: 0 0 25px 0 black;  
+    font-size: 20px;
     }  
 
 header * {  
@@ -54,6 +55,16 @@ header li {
 }  
 
 header li a {  
-    color: blue;  
+    color: rgb(255, 255, 255);  
     text-decoration: none;  
 }  
+
+header li a:hover{
+    background-color: #FFD572;
+    color: #061e56;
+}
+
+header li a.active{
+    background-color: bisque;
+    color: rgb(0, 0, 95);
+}
