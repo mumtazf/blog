@@ -1,0 +1,12 @@
+header{
+    width: 100%;
+}
+
+.date, .author{
+    text-align: left;
+    color: grey;
+    padding: 1em;
+}
+
+
+
