@@ -2,11 +2,18 @@ header{
     width: 100%;
 }
 
+.title{
+    text-align: center;
+}
+
 .date, .author{
     text-align: left;
     color: grey;
     padding: 1em;
 }
 
+.featured-image{
+    width: 100%;
+}
 
 
