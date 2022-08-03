@@ -14,7 +14,11 @@ header{
 }
 
 .featured-image{
-    width: 100%;
+    background-image: url("{{site.github.url}}//assets//images//{{page.image}}");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
 }
 
 .blog-content{
