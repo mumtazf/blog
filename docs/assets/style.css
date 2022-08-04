@@ -24,7 +24,7 @@ header{
 }
 
 .title{
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .blog-content{
@@ -32,7 +32,8 @@ header{
     width: 50%;
     padding: 3em;
     font-family: 'Lato', sans-serif;
-    line-height: 1.8px;
+    line-height: 20px;
+    font-size: 18px;
 }
 
 /* Navbar styling */
@@ -43,7 +44,7 @@ header{
 
 .content{
     padding-top: 2em;
-    line-height: 1.8px;
+    line-height: 20px;
 }
 
 header {  
