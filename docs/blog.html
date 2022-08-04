@@ -2,13 +2,28 @@
 layout: default
 title: Blog
 ---
-<h1>Latest Posts</h1>
+
+<head> 
+  <link rel = "stylesheet" href = "assets/style.css">
+</head>
+
+<h1 class = "blog-heading">Reflections</h1>
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url | prepend: site.url  }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
+      <div class = "main">
+        <div class = "blog-card">
+            <h3 class = "blog-card title"> 
+                {{post.title}}
+            </h3>
+            <p class = "blog-card date">{{post.date}}</p>
+            <p class = "blog-card description">
+              {{ post.excerpt }}
+            </p>
+            <button class = "blog-card button" href = "{{post.url | prepend: site.url}}"> Read more </button>
+        </div>
+    </div>      
+  </li>
   {% endfor %}
 </ul>
