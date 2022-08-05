@@ -89,6 +89,8 @@ header li a.active{
 /* For blog cards */
 
 .blog-heading{
+    padding-top: 50px;
+    text-align: center;
     color:rgb(0, 0, 95);
 }
 
@@ -131,6 +133,7 @@ header li a.active{
     color:#ffffff;
     background-color:#127593;
     padding:5px;
+    padding-bottom: 5px;
     width: 150px;
     height: 30px;
     justify-content: center;

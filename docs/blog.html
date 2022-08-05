@@ -21,7 +21,7 @@ title: Blog
             <p class = "blog-card description">
               {{ post.excerpt }}
             </p>
-            <button class = "blog-card button" href = "{{post.url | prepend: site.url}}"> Read more </button>
+            <button class = "blog-card button" onclick = "window.location.href ='{{post.url | prepend: site.url}}'"> Read more </button>
         </div>
     </div>      
   </li>
