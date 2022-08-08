@@ -8,11 +8,11 @@ header{
 
 .title{
     text-align: center;
+    padding-top: 70px;
+
 }
 
 .date{
-    margin: auto;
-    width: 50%;
     text-align: center;
     color: grey;
 }
@@ -21,10 +21,6 @@ header{
     width: 100%;
     height: 400px;
     padding-bottom: 50px;
-}
-
-.title{
-    padding-top: 70px;
 }
 
 .blog-content{
