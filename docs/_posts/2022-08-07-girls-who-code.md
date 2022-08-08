@@ -1,5 +1,6 @@
 ---
 layout: post
+category: Career
 title: Girls Who Code Experience - Building Career and Community
 date: 2022-08-07
 image: girlswhocode.png
