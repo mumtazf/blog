@@ -2,6 +2,7 @@
 layout: post
 title: Girls Who Code Experience - Building Career and Community
 date: 2022-08-07
+image: girlswhocode.png
 ---
 
 This summer, I decided to spend my time motivating other female-identifying individuals towards pursuing their interests in Computer Science. As a first-generation student myself, I've always been subconsciously cognizant of whether I feel included in a room. This was my time to create that inclusive environment for others. 
@@ -13,4 +14,3 @@ While teaching them how to code, I learn how to develop code. Well, you might as
 > Developing code is about communication - not just to the computer, but also with the people you are working with. 
 
 I learn through my occasional errors during coding demos where I do not just learn how to fix my code, but to communicate that I don't know all the ins and outs of programming. By admitting that I still have a long path to traverse, I watch my ego subside. It's easier to make mistakes and learn from them. Plus, I get to show other students that one journey of learning is through making mistakes and learning from them. 
-
