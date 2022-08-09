@@ -12,14 +12,14 @@ layout: default
 <body>
 
 <main>
-    <div class = "featured-image">
+    <div id = "featured-image">
         <img src= "{{site.github.url}}//assets//images//{{page.image}}" height = "500px", width = "100%" >
     </div>
 
-    <h1 class = "title">{{page.title}}</h1>
-    <div class = "date">{{page.date | date_to_string}}  </div>
+    <h1 id = "title">{{page.title}}</h1>
+    <div id = "date">{{page.date | date_to_string}}  </div>
    
-    <div class = "blog-content">
+    <div id = "blog-content">
         {{content}}
     </div>
 </main>
