@@ -3,7 +3,7 @@ layout: post
 category: Career
 title: Girls Who Code Experience - Building Career and Community
 date: 2022-08-07
-image: girlswhocode.png
+image: https://res.cloudinary.com/mumtazf/image/upload/v1661000238/girlswhocode.png
 ---
 
 This summer, I decided to spend my time motivating other female-identifying individuals towards pursuing their interests in Computer Science. As a first-generation student myself, I've always been subconsciously cognizant of whether I feel included in a room. This was my time to create that inclusive environment for others. 

@@ -197,9 +197,14 @@ img {
   background-color: white;
   border: 1px solid blue;
   border-radius: 1rem;
-  color: white;
+  color: rgb(38, 0, 255);
   padding: 0.5rem;
   text-transform: lowercase;
+}
+
+.btn:hover{
+  background-color: darkblue;
+  color: white;
 }
 
 .btn--block {
@@ -217,6 +222,7 @@ img {
 
 .cards__item {
   display: flex;
+  flex-basis: 80%;
   padding: 1rem;
   @media(min-width: 40rem) {
     width: 50%;

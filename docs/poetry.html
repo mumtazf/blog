@@ -13,7 +13,7 @@ title: Blog
   {% for post in site.posts %}
     <li class="cards__item">
       <div class="card">
-        <div class="card__image"><img src = "{{site.baseurl}}/images/{{post.image}}"> </div>
+        <div class="card__image"><img src = "{{post.image}}"> </div>
         <div class="card__content">
           <div class="card__title">{{post.title}}</div>
           <p class="card__text"> {{ post.excerpt }} </p>

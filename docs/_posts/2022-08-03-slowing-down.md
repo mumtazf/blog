@@ -3,7 +3,7 @@ layout: post
 category: reflections
 date: 2022-08-03
 title: Maintaining your pace in a fast-paced world
-image: hourglass.jpg
+image: https://res.cloudinary.com/mumtazf/image/upload/v1661000442/hourglass.jpg
 ---
 
 > Perhaps the purpose of life is "to be" and not necessarily always "to do".
