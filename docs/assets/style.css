@@ -188,8 +188,8 @@ list-style: none;
 
 
 img {
-  height: auto;
-  max-width: 50%;
+  height: 100%;
+  max-width: 100%;
   vertical-align: middle;
 }
 
@@ -199,7 +199,6 @@ img {
   border-radius: 1rem;
   color: rgb(38, 0, 255);
   padding: 0.5rem;
-  text-transform: lowercase;
 }
 
 .btn:hover{
@@ -215,7 +214,6 @@ img {
  
 .cards {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
@@ -252,14 +250,10 @@ img {
 }
 
 .card__image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
   filter: contrast(70%);
   overflow: hidden;
   position: relative;
+  height: 40%;
   transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
 }
 
