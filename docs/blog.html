@@ -9,21 +9,17 @@ title: Blog
 
 <h1 class = "blog-heading">Reflections</h1>
 
-<ul>
+<ul class="cards">
   {% for post in site.posts %}
-    <li>
-      <div class = "main">
-        <div class = "blog-card">
-            <h2 class = "blog-card title"> 
-                {{post.title}}
-            </h2>
-            <p class = "blog-card date">{{post.date}}</p>
-            <p class = "blog-card description">
-              {{ post.excerpt }}
-            </p>
-            <button class = "blog-card button" onclick = "window.location.href ='{{post.url | prepend: site.url}}'"> Read more </button>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image"><img src = "{{site.baseurl}}/images/{{post.image}}"> </div>
+        <div class="card__content">
+          <div class="card__title">{{post.title}}</div>
+          <p class="card__text"> {{ post.excerpt }} </p>
+          <button class="btn btn--block card__btn" onclick = "window.location.href ='{{post.url | prepend: site.url}}'">Read More</button>
         </div>
-    </div>      
-  </li>
+      </div>
+    </li>
   {% endfor %}
 </ul>
